@@ -1,0 +1,43 @@
+# Local Python environments
+myenv/
+.venv/
+venv/
+env/
+
+# Local dependency caches
+.ml_deps/
+.ml_deps_py*/
+.matplotlib_cache/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Streamlit and app logs
+*.log
+streamlit_start*.log
+
+# Local backup folders, not needed for online deployment
+backup_per_toko_*/
+
+# Folders not needed for Streamlit deploy
+G Colab/
+DATA DUMMY/
+scripts/
+
+# Test/training scripts (not needed for web app)
+test_colab.py
+test_skripsi.py
+
+# Local batch scripts
+*.bat
+
+# Temporary Excel lock files
+~$*
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.gemini/
