@@ -39,18 +39,6 @@ Aplikasi web **Streamlit** untuk forecasting (peramalan) penjualan 4 kategori pr
 - **Pandas & NumPy** - Data processing
 - **Plotly** - Interactive visualization
 
-## ☁️ Deploy ke Streamlit Cloud
-
-1. Push repository ini ke GitHub
-2. Buka [share.streamlit.io](https://share.streamlit.io)
-3. Login dengan akun GitHub
-4. Klik **Create app** → **Yup, I have an app**
-5. Pilih repository, branch `main`, main file `app.py`
-6. Di **Advanced settings**, pilih Python `3.12`
-7. Klik **Deploy**
-
-Panduan detail ada di [`README_DEPLOY.md`](README_DEPLOY.md).
-
 ## 💻 Jalankan Lokal
 
 ```bash
